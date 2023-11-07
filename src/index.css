@@ -186,7 +186,7 @@ header p {
   color: #5d0909;
 }
 
-.modal::backdrop {
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -197,9 +197,12 @@ header p {
 }
 
 .modal {
+  position: fixed;
+  top: 50%;
+  left: 25%;
   min-width: 30rem;;
   padding: 0;
-  z-index: 2;
+  z-index: 5;
   background: #d5c7bc;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
